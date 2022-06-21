@@ -74,6 +74,7 @@ header {
 .hero-title h1 {
   font-size: 3.1rem;
   font-weight: 900;
+  line-height: 1;
 }
 
 .hero-info {

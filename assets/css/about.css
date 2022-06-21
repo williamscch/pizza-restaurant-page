@@ -2,7 +2,7 @@
   --white: #ffffff;
   --black: #000000;
   --neutral: #272a31;
-  --orange: rgb(236, 82, 65);
+  --orange: #ec5241;
   --gray: #d3d3d3;
   --xs: 0.6rem;
   --ssm: 0.8rem;
@@ -76,6 +76,7 @@ header {
 .hero-title h1 {
   font-size: 3.1rem;
   font-weight: 900;
+  line-height: 0.9;
 }
 
 .hero-info {
@@ -240,4 +241,57 @@ color: var(--white);
 text-align: center;
 margin: 0;
 font-weight: 600;
+}
+
+.locations{
+    background-color: var(--neutral);
+    height: 22vh;
+}
+
+/* styles for the footer section */
+
+footer {
+    background-color: white;
+    display: flex;
+    height: 10vh;
+}
+.conectus {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conectus h4 {
+    text-align: center;
+    margin: 0;
+    font-size: var(--md);
+    font-weight: 500;
+}
+
+.conect{
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    justify-content: center;
+    margin: 0;
+}
+
+.conect li {
+    list-style: none;
+    font-size: var(--md);
+    font-weight: 600;
+}
+
+.conect li a {
+    text-decoration: none;
+    color: var(--neutral);
+}
+
+footer p {
+    width: 50%;
+    font-size: var(--xs);
+    color: var(--neutral);
+    align-self: center;
+    margin: 0;
 }
