@@ -2,7 +2,7 @@
   --white: #ffffff;
   --black: #000000;
   --neutral: #272a31;
-  --orange: #ec5242;
+  --orange: rgb(236, 82, 65);
   --gray: #d3d3d3;
   --xs: 0.6rem;
   --ssm: 0.8rem;
@@ -56,8 +56,9 @@ header {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  height: 70vh;
+  height: 60vh;
   justify-content: space-between;
+  align-items: center;
 }
 
 .hero-title {
@@ -78,14 +79,15 @@ header {
 }
 
 .hero-info {
-  background-color: rgba(234, 232, 232, 0.811);
-  border: 3px solid var(--white);
+  background-color: var(--white);
+  border: 1px solid var(--gray);
   border-radius: 2px;
   text-align: center;
   padding: 0.3rem;
-  height: 24vh;
+  height: 18vh;
   display: flex;
   align-items: center;
+  width: 85%;
 }
 
 .hero-info p {
@@ -97,11 +99,11 @@ header {
 .hero-date {
   align-self: center;
   text-align: center;
-  width: 80%;
+  width: 90%;
 }
 
 .hero-date h2 {
-  font-size: var(--md);
+  font-size: var(--ssm);
   color: var(--neutral);
   font-weight: 400;
 }
@@ -113,12 +115,14 @@ header {
   color: var(--black);
 }
 
+/* logo explanation section */
+
 .fratello-logo {
   padding: 2rem;
-  padding: 2rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--white);
 }
 
 .fratello-logo h2 {
@@ -142,8 +146,8 @@ header {
 }
 
 .logo-middle {
-    background-color: rgba(234, 232, 232, 0.811);
-    border: 3px solid var(--white);
+    background-color: var(--white);
+    border: 1px solid var(--gray);
     border-radius: 2px;
     display: flex;
     align-items: center;
@@ -154,4 +158,86 @@ header {
 
 .logo-middle img{
     width: 80%;
+}
+
+/* Story section */
+
+.story{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-top: 0.5px solid var(--gray);
+
+}
+
+.story h2{
+    font-size: var(--md);
+    font-weight: 600;
+}
+
+.story hr {
+    width: 15%;
+    border-bottom: 5px solid var(--orange);
+    margin: 0;
+}
+
+.story p {
+    font-size: var(--ssm);
+    font-weight: 300;
+    text-align: center;
+    margin: 1rem 0;
+
+}
+
+.story-cards-container{
+    padding: 1rem;
+    display: flex;
+      flex-direction: column;
+    gap: 1rem;
+
+}
+
+.story-card {
+    background-image: linear-gradient(
+        rgba(200, 50, 50, 0.60),
+        rgba(200, 50, 50, 0.60)
+      ),
+      url(/assets/img/fratello-team.jpg); 
+      background-size: cover;
+      background-position: top;
+      height: 20vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+
+.story-card2 {
+    background-image: linear-gradient(
+        rgba(200, 50, 50, 0.60),
+        rgba(200, 50, 50, 0.60)
+      ),
+      url(/assets/img/fratello-clientes.jpg); 
+      background-size: cover;
+      background-position: top;
+      height: 20vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+
+.story-card h4, .story-card2 h4 {
+color: var(--white);
+font-weight: 900;
+margin: 0;
+}
+
+.story-card p, .story-card2 p {
+color: var(--white);
+text-align: center;
+margin: 0;
+font-weight: 600;
 }
