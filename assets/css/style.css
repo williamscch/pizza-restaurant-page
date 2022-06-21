@@ -13,6 +13,7 @@
 
 body {
   margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 nav {
@@ -58,11 +59,17 @@ header {
 .hero-title{
     padding-top: 1rem;
     color: var(--orange);
-    text-align: center;
+}
+
+.hero-title p{
+    font-size: var(--lg);
+    font-weight: 400;
+    margin: 0;
 }
 
 .hero-title h1{
-    font-size: var(--xl);
+    font-size: 3.1rem;
+    font-weight: 900;
 }
 
 .hero-info {
@@ -71,17 +78,28 @@ header {
     border-radius: 2px;
     text-align: center;
     padding: 0.3rem;
-    align-self: center;
+    height: 13vh;
+    display: flex;
+    align-items: center;
 }
 
 .hero-info p{
     margin: 0;
+    font-size: var(--sm);
+    font-weight: 400;
 }
 
-.hero span {
+.hero-date span {
      font-size: var(--lg);
      color: var(--neutral);
+     font-weight:900 ;
 }
+
+.hero-date p {
+font-size: var(--sm);
+font-weight: 400;
+}
+
 .main-program {
     background-color: var(--neutral);
     display: flex;
@@ -92,6 +110,8 @@ header {
 
 .main-program h2{
     color: var(--white);
+    font-size: var(--lg);
+    font-weight: 600;
 }
 
 .main-program hr{
@@ -123,6 +143,7 @@ header {
 
 .deals-card h3 {
     font-size: var(--sm);
+    font-weight: 600;
     color: var(--orange);
     align-self: center;
     margin: 0;
@@ -133,6 +154,7 @@ header {
     color: var(--white);
     align-self: center;
     margin: 0;
+    font-weight: 400;
 }
 
 .deals-button {
