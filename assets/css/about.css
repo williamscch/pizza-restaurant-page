@@ -1,0 +1,157 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --neutral: #272a31;
+  --orange: #ec5242;
+  --gray: #d3d3d3;
+  --xs: 0.6rem;
+  --ssm: 0.8rem;
+  --sm: 1rem;
+  --md: 1.4rem;
+  --lg: 2rem;
+  --xl: 2.6rem;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* Styles for the navbar section */
+
+nav {
+  display: flex;
+  padding-left: 1rem;
+}
+
+.logo {
+  display: none;
+}
+
+.navbar-items {
+  display: none;
+}
+
+.hamburger-button {
+  text-decoration: none;
+  color: var(--neutral);
+  font-size: var(--lg);
+}
+
+/* Styles for the hero section */
+
+header {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(/assets/img/bg-pizza3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 70vh;
+}
+
+.hero {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: space-between;
+}
+
+.hero-title {
+  padding-top: 1rem;
+  color: var(--orange);
+  text-align: center;
+}
+
+.hero-title p {
+  font-size: var(--lg);
+  font-weight: 400;
+  margin: 0;
+}
+
+.hero-title h1 {
+  font-size: 3.1rem;
+  font-weight: 900;
+}
+
+.hero-info {
+  background-color: rgba(234, 232, 232, 0.811);
+  border: 3px solid var(--white);
+  border-radius: 2px;
+  text-align: center;
+  padding: 0.3rem;
+  height: 24vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-info p {
+  margin: 0;
+  font-size: var(--sm);
+  font-weight: 400;
+}
+
+.hero-date {
+  align-self: center;
+  text-align: center;
+  width: 80%;
+}
+
+.hero-date h2 {
+  font-size: var(--md);
+  color: var(--neutral);
+  font-weight: 400;
+}
+
+.hero-date a {
+  font-size: var(--sm);
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.fratello-logo {
+  padding: 2rem;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fratello-logo h2 {
+  color: var(--neutral);
+  font-size: var(--lg);
+  font-weight: 600;
+}
+
+.fratello-logo hr {
+  width: 15%;
+  border-bottom: 5px solid var(--orange);
+  margin: 0;
+}
+
+.fratello-logo p {
+  text-align: center;
+  font-size: var(--sm);
+  color: var(--neutral);
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.logo-middle {
+    background-color: rgba(234, 232, 232, 0.811);
+    border: 3px solid var(--white);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    width: 80%;
+}
+
+.logo-middle img{
+    width: 80%;
+}
