@@ -146,109 +146,110 @@ header {
 }
 
 .logo-middle {
-    background-color: var(--white);
-    border: 1px solid var(--gray);
-    border-radius: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 15vh;
-    width: 80%;
+  background-color: var(--white);
+  border: 1px solid var(--gray);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+  width: 80%;
 }
 
-.logo-middle img{
-    width: 80%;
+.logo-middle img {
+  width: 80%;
 }
 
 /* Story section */
 
-.story{
-    background-color: var(--white);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-    border-top: 0.5px solid var(--gray);
-
+.story {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-top: 0.5px solid var(--gray);
 }
 
-.story h2{
-    font-size: var(--md);
-    font-weight: 600;
+.story h2 {
+  font-size: var(--md);
+  font-weight: 600;
 }
 
 .story hr {
-    width: 15%;
-    border-bottom: 5px solid var(--orange);
-    margin: 0;
+  width: 15%;
+  border-bottom: 5px solid var(--orange);
+  margin: 0;
 }
 
 .story p {
-    font-size: var(--ssm);
-    font-weight: 300;
-    text-align: center;
-    margin: 1rem 0;
-
+  font-size: var(--ssm);
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem 0;
 }
 
-.story-cards-container{
-    padding: 1rem;
-    display: flex;
-      flex-direction: column;
-    gap: 1rem;
-
+.story-cards-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .story-card {
-    background-image: linear-gradient(
-        rgba(200, 50, 50, 0.60),
-        rgba(200, 50, 50, 0.60)
-      ),
-      url(/assets/img/fratello-team.jpg); 
-      background-size: cover;
-      background-position: top;
-      height: 20vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+  background-image: linear-gradient(
+      rgba(200, 50, 50, 0.6),
+      rgba(200, 50, 50, 0.6)
+    ),
+    url(/assets/img/fratello-team.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .story-card2 {
-    background-image: linear-gradient(
-        rgba(200, 50, 50, 0.60),
-        rgba(200, 50, 50, 0.60)
-      ),
-      url(/assets/img/fratello-clientes.jpg); 
-      background-size: cover;
-      background-position: top;
-      height: 20vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+  background-image: linear-gradient(
+      rgba(200, 50, 50, 0.6),
+      rgba(200, 50, 50, 0.6)
+    ),
+    url(/assets/img/fratello-clientes.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.story-card h4, .story-card2 h4 {
-color: var(--white);
-font-weight: 900;
-margin: 0;
+.story-card h4,
+.story-card2 h4 {
+  color: var(--white);
+  font-weight: 900;
+  margin: 0;
 }
 
-.story-card p, .story-card2 p {
-color: var(--white);
-text-align: center;
-margin: 0;
-font-weight: 500;
+.story-card p,
+.story-card2 p {
+  color: var(--white);
+  text-align: center;
+  margin: 0;
+  font-weight: 500;
 }
 
-.locations{
-    background-color: var(--neutral);
-    height: 20vh;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* locations section */
+
+.locations {
+  background-color: var(--neutral);
+  height: 20vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .locations h2 {
@@ -272,47 +273,230 @@ font-weight: 500;
 /* styles for the footer section */
 
 footer {
-    background-color: white;
-    display: flex;
-    height: 10vh;
+  background-color: white;
+  display: flex;
+  height: 10vh;
 }
 .conectus {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .conectus h4 {
-    text-align: center;
-    margin: 0;
-    font-size: var(--md);
-    font-weight: 500;
+  text-align: center;
+  margin: 0;
+  font-size: var(--md);
+  font-weight: 500;
+  color: var(--neutral);
 }
 
-.conect{
-    display: flex;
-    gap: 2rem;
-    padding: 0;
-    justify-content: center;
-    margin: 0;
+.conect {
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+  justify-content: center;
+  margin: 0;
 }
 
 .conect li {
-    list-style: none;
-    font-size: var(--md);
-    font-weight: 600;
+  list-style: none;
+  font-size: var(--md);
+  font-weight: 600;
 }
 
 .conect li a {
-    text-decoration: none;
-    color: var(--neutral);
+  text-decoration: none;
+  color: var(--neutral);
 }
 
 footer p {
-    width: 50%;
-    font-size: var(--xs);
-    color: var(--neutral);
-    align-self: center;
+  width: 50%;
+  font-size: var(--xs);
+  color: var(--neutral);
+  align-self: center;
+  margin: 0;
+}
+
+/* media query for the about desktop page */
+
+@media (min-width: 768px) {
+  /* navbar */
+
+  nav {
+    background-color: white;
+    height: 7vh;
+    justify-content: space-between;
+    padding: 0 15rem;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+  }
+
+  .logo {
+    display: block;
+  }
+
+  .logo a {
+    width: 10px;
+  }
+
+  .logo a img {
+    width: 12rem;
+  }
+
+  .navbar-items {
+    display: flex;
     margin: 0;
+    gap: 7rem;
+  }
+
+  .navbar-items li {
+    list-style: none;
+  }
+
+  .navbar-items li a {
+    text-decoration: none;
+    color: var(--neutral);
+    font-size: var(--md);
+    font-weight: 500;
+  }
+
+  .navbar-items li a:hover {
+    color: var(--orange);
+    border: 4px solid var(--orange);
+    padding: 0.8rem;
+  }
+
+  .hamburger-button {
+    display: none;
+  }
+
+  /* hero */
+  .hero {
+    padding-top: 10vh;
+    height: 90vh;
+    justify-content: space-around;
+  }
+  .hero-title p {
+    display: none;
+  }
+
+  .hero-title h1 {
+    font-size: 7rem;
+    line-height: 0.8;
+    padding: 0 50rem;
+    margin: 0;
+  }
+
+  .hero-info {
+    width: 50%;
+  }
+
+  .hero-info p {
+    font-size: var(--lg);
+  }
+
+  .hero-date h2 {
+    font-size: var(--lg);
+  }
+
+  .hero-date a {
+    font-size: var(--lg);
+  }
+
+/* logo section */
+
+.fratello-logo {
+  padding: 5rem 40rem;
+  height: 70vh;
+}
+
+.fratello-logo h2 {
+  font-size: var(--xl);
+}
+
+.fratello-logo p {
+  font-size: var(--md);
+}
+
+.logo-middle {
+  margin-top: 5rem;
+  height: 35vh;
+  width: 70%;
+}
+
+/* Story section */
+
+.story {
+  padding: 3rem 30rem; 
+  height: 70vh;
+}
+
+.story h2 {
+  font-size: var(--xl);
+  margin-bottom: 2rem;
+}
+
+.story p {
+  font-size: var(--md);
+  margin: 2rem 0;
+  padding: 0 5rem;
+}
+
+.story-cards-container {
+  padding-top: 5rem;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.story-card, .story-card2 {
+  height: 35vh;
+  width: 50%;
+}
+
+.story-card p,
+.story-card2 p {
+  color: var(--white);
+  text-align: center;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* footer section */
+
+  .locations {
+    display: none;
+  }
+
+  footer {
+    height: 15vh;
+    background-color: var(--neutral);
+    color: var(--white);
+  }
+
+  .conectus h4 {
+    font-size: var(--lg);
+    color: var(--white);
+  }
+
+  .conect li {
+    font-size: var(--xl);
+  }
+
+  .conect li a {
+    color: var(--white);
+    transition: transform 1s;
+  }
+
+  .conect li a:hover {
+    transform: scale(1.3);
+    color: var(--orange);
+  }
+
+  footer p {
+    color: var(--white);
+    font-size: var(--md);
+  }
 }
