@@ -124,7 +124,7 @@ nav {
 
 /* Styles for the hero section */
 
-header {
+header.about {
   background-image:
     linear-gradient(
       rgba(255, 255, 255, 0.8),
