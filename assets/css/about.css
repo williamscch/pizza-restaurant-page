@@ -125,7 +125,10 @@ nav {
 /* Styles for the hero section */
 
 header {
-  background-image: url('../img/bg-pizza3.jpg');
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8)
+  ), url('../img/bg-pizza3.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -282,7 +285,7 @@ header {
       rgba(200, 50, 50, 0.6),
       rgba(200, 50, 50, 0.6)
     ),
-    url(../img/fratello-team.jpg);
+    url('../img/fratello-team.jpg');
   background-size: cover;
   background-position: top;
   height: 20vh;
@@ -298,7 +301,7 @@ header {
       rgba(200, 50, 50, 0.6),
       rgba(200, 50, 50, 0.6)
     ),
-    url(../img/fratello-clientes.jpg);
+    url('../img/fratello-clientes.jpg');
   background-size: cover;
   background-position: top;
   height: 20vh;
