@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Fratello Pizzas Page
 
 > In this project I build a fully responsive page for a Pizza Restaurant, showing the most important features like the menu, location, deals an story.
 
@@ -12,7 +12,7 @@
 - JavaScript
 - DOM
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://wdavidcch.github.io/capstone1/)
 
