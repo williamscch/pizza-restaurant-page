@@ -130,7 +130,7 @@ header {
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8)
     ),
-    url(../assets/img/bg-pizza3.jpg);
+    url(/../img/bg-pizza3.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
