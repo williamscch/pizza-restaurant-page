@@ -130,7 +130,7 @@ header {
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8)
     ),
-    url(./assets/img/bg-pizza3.jpg);
+    url(../assets/img/bg-pizza3.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -287,7 +287,7 @@ header {
       rgba(200, 50, 50, 0.6),
       rgba(200, 50, 50, 0.6)
     ),
-    url(./assets/img/fratello-team.jpg);
+    url(../assets/img/fratello-team.jpg);
   background-size: cover;
   background-position: top;
   height: 20vh;
@@ -303,7 +303,7 @@ header {
       rgba(200, 50, 50, 0.6),
       rgba(200, 50, 50, 0.6)
     ),
-    url(./assets/img/fratello-clientes.jpg);
+    url(../assets/img/fratello-clientes.jpg);
   background-size: cover;
   background-position: top;
   height: 20vh;

@@ -130,7 +130,7 @@ header {
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8)
     ),
-    url(./assets/img/friends-pizza.jpg);
+    url(../assets/img/friends-pizza.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -650,7 +650,7 @@ header {
 
   .locations {
     background-color: var(--neutral);
-    height: 20vh;
+    height: 25vh;
     padding: 1rem;
     display: flex;
     flex-direction: column;
