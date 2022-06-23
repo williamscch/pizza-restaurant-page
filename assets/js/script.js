@@ -88,3 +88,35 @@ for (let i = 0; i < popularPizzasObj.length; i += 1) {
   popularPizzasInfo.append(popularPizzasTitleDiv, popularPizzasDescription);
   popularPizzasTitleDiv.append(popularPizzasTitle, popularPizzasSubtitle);
 }
+
+// mobile menu
+
+const button = document.querySelector('.hamburger-button');
+const menu = document.querySelector('.navbar-items');
+const body = document.querySelector('body');
+
+// const closer = document.querySelector('.x');
+// const closePortfolio = document.querySelector('.link');
+// const closeAbout = document.querySelector('.link2');
+// const closeContact = document.querySelector('.link3');
+
+button.addEventListener('click', () => {
+  menu.classList.toggle('active');
+  body.classList.toggle('active');
+});
+
+// closer.addEventListener('click', () => {
+//   menu.classList.toggle('active');
+// });
+
+// closePortfolio.addEventListener('click', () => {
+//   menu.classList.toggle('active');
+// });
+
+// closeAbout.addEventListener('click', () => {
+//   menu.classList.toggle('active');
+// });
+
+// closeContact.addEventListener('click', () => {
+//   menu.classList.toggle('active');
+// });
