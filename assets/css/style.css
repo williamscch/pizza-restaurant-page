@@ -230,8 +230,8 @@ header {
 }
 
 .popular-card {
+  height: 50%;
   display: grid;
-  height: 17vh;
   grid-template-columns: 40% 60%;
   grid-template-rows: 100%;
   gap: 0.4rem;
@@ -536,6 +536,11 @@ footer p {
     height: 90%;
     justify-content: center;
     padding: 0;
+  }
+
+  .popular-card{
+    height: 100%;
+    grid-template-columns: 30% 70%;
   }
 
   .popular-pizzas h2,
