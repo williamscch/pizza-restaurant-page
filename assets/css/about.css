@@ -517,6 +517,25 @@ header {
     display: none;
   }
 
+  .fratello-logo {
+    padding: 5rem;
+    height: 80vh;
+  }
+  
+  .fratello-logo h2 {
+    font-size: var(--xl);
+  }
+  
+  .fratello-logo p {
+    font-size: var(--md);
+  }
+  
+  .logo-middle {
+    margin-top: 5rem;
+    height: 55%;
+    width: 70%;
+  }
+
   /* Story section */
 
   .story {
