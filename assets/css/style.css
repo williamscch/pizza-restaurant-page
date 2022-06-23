@@ -62,11 +62,21 @@ nav {
   font-size: var(--md);
 }
 
+.menu-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
 
 .hamburger-button {
   text-decoration: none;
-  color: var(--neutral);
-  font-size: var(--lg);
+  background-color: var(--neutral);
+  border-radius: 5px;
+  
 }
 }
 
@@ -525,22 +535,24 @@ footer p {
   .popular-pizzas-container {
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 130vh;
   }
 
   .popular-pizzas {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 10% 30% 30% 30%;
-    width: 80%;
+    grid-template-rows: 7% 31% 31% 31%;
+    width: 100%;
     height: 90%;
     justify-content: center;
-    padding: 0;
+    padding: 2rem 3rem;
   }
 
   .popular-card{
-    height: 100%;
+    height: 60%;
     grid-template-columns: 30% 70%;
+    align-self: center;
+    justify-self: center;
   }
 
   .popular-pizzas h2,
@@ -561,6 +573,7 @@ footer p {
 
   .popular-title-div h3 {
     font-size: var(--lg);
+    margin: 0;
   }
 
   .popular-title-div h4 {
