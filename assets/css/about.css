@@ -17,9 +17,9 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-body.active {
+/* body.active {
   overflow: hidden;
-}
+} */
 
 /* Styles for the navbar section */
 
@@ -125,7 +125,8 @@ nav {
 /* Styles for the hero section */
 
 header {
-  background-image: linear-gradient(
+  background-image: 
+  linear-gradient(
     rgba(255, 255, 255, 0.8),
     rgba(255, 255, 255, 0.8)
   ), url('../img/bg-pizza3.jpg');
