@@ -1,6 +1,6 @@
 :root {
-  --white: #ffffff;
-  --black: #000000;
+  --white: #fff;
+  --black: #000;
   --neutral: #272a31;
   --orange: #ec5242;
   --gray: #d3d3d3;
@@ -31,6 +31,7 @@ nav {
 .logo {
   display: none;
 }
+
 @media (max-width: 768px) {
   .navbar-items {
     display: flex;
@@ -45,7 +46,7 @@ nav {
     gap: 1rem;
     padding: 3.5rem 2rem 0 2rem;
     top: -100%;
-    transition: .5s;
+    transition: 0.5s;
   }
 
   .navbar-items.active {
@@ -63,7 +64,7 @@ nav {
   }
 }
 
-.nav-info{
+.nav-info {
   width: 15%;
 }
 
@@ -92,7 +93,8 @@ nav {
   background-color: transparent;
 }
 
-.hamburger-button::before, .hamburger-button::after{
+.hamburger-button::before,
+.hamburger-button::after {
   content: '';
   position: absolute;
   width: 35px;
@@ -102,11 +104,11 @@ nav {
   transition: all 0.5s ease-in-out;
 }
 
-.hamburger-button::before{
+.hamburger-button::before {
   transform: translateY(-12px);
 }
 
-.menu-btn.open .hamburger-button::before{
+.menu-btn.open .hamburger-button::before {
   transform: rotate(45deg) translate(35px, -35px);
   background-color: var(--white);
 }
@@ -115,7 +117,7 @@ nav {
   transform: translateY(12px);
 }
 
-.menu-btn.open .hamburger-button::after{
+.menu-btn.open .hamburger-button::after {
   transform: rotate(-45deg) translate(35px, 35px);
   background-color: var(--white);
 }
@@ -123,7 +125,8 @@ nav {
 /* Styles for the hero section */
 
 header {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8)
     ),
@@ -361,11 +364,10 @@ header {
   display: flex;
   color: var(--white);
   padding-top: 1rem;
-  display: flex;
   align-items: center;
 }
 
-.direction i{
+.direction i {
   width: 40%;
   text-align: center;
   font-size: var(--lg);
@@ -378,22 +380,23 @@ header {
   justify-content: space-around;
 }
 
-.direction-info h4{
+.direction-info h4 {
   font-size: var(--ssm);
 }
 
-.direction p{
+.direction p {
   font-size: var(--xs);
   margin: 0;
 }
 
 /* styles for the footer section */
 
-footer {
+.footer {
   background-color: white;
   display: flex;
   height: 10vh;
 }
+
 .conectus {
   width: 50%;
   display: flex;
@@ -427,7 +430,7 @@ footer {
   color: var(--neutral);
 }
 
-footer p {
+.footer p {
   width: 50%;
   font-size: var(--xs);
   color: var(--neutral);
@@ -460,7 +463,7 @@ footer p {
     justify-self: center;
   }
 
-  .logo a img {
+  .logo-nav img {
     width: 12rem;
   }
 
@@ -484,12 +487,6 @@ footer p {
     color: var(--neutral);
     font-size: var(--md);
     font-weight: 500;
-  }
-
-  .navbar-items li a:hover {
-    color: var(--orange);
-    border: 4px solid var(--orange);
-    padding: 0.8rem;
   }
 
   .menu-btn {
@@ -541,6 +538,7 @@ footer p {
   .hero-date span {
     font-size: 3rem;
   }
+
   .hero-date p {
     font-size: var(--lg);
     margin: 0;
@@ -675,35 +673,36 @@ footer p {
     color: var(--white);
     padding-top: 1rem;
   }
-  
-  .direction i{
+
+  .direction i {
     width: 40%;
     text-align: center;
     font-size: var(--xl);
   }
-  
+
   .direction-info {
     display: flex;
     flex-direction: column;
     width: 60%;
     justify-content: space-around;
   }
-  
-  .direction-info h4{
+
+  .direction-info h4 {
     font-size: var(--lg);
   }
-  
-  .direction p{
+
+  .direction p {
     font-size: var(--md);
   }
 
   /* styles for the footer section */
 
-  footer {
+  .footer {
     background-color: white;
     display: flex;
     height: 10vh;
   }
+
   .conectus {
     width: 50%;
     display: flex;
@@ -746,12 +745,18 @@ footer p {
     color: var(--orange);
   }
 
-  footer p {
+  .footer p {
     width: 50%;
     padding: 1rem;
     font-size: var(--md);
     color: var(--neutral);
     align-self: center;
     margin: 0;
+  }
+
+  .navbar-items li a:hover {
+    color: var(--orange);
+    border: 4px solid var(--orange);
+    padding: 0.8rem;
   }
 }
