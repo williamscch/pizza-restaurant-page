@@ -17,9 +17,9 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-body.active {
+/* body.active {
   overflow: hidden;
-}
+} */
 
 /* Styles for the navbar section */
 
@@ -357,12 +357,34 @@ header {
   margin: 0;
 }
 
-.locations p {
-  color: var(--gray);
-  font-size: var(--lg);
-  font-weight: 900;
-  margin: 1rem 0;
+.direction {
+  display: flex;
+  color: var(--white);
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.direction i{
+  width: 40%;
   text-align: center;
+  font-size: var(--lg);
+}
+
+.direction-info {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: space-around;
+}
+
+.direction-info h4{
+  font-size: var(--ssm);
+}
+
+.direction p{
+  font-size: var(--xs);
+  margin: 0;
 }
 
 /* styles for the footer section */
@@ -648,12 +670,31 @@ footer p {
     margin: 0;
   }
 
-  .locations p {
-    color: var(--gray);
-    font-size: var(--lg);
-    font-weight: 900;
-    margin: 1rem 0;
+  .direction {
+    display: flex;
+    color: var(--white);
+    padding-top: 1rem;
+  }
+  
+  .direction i{
+    width: 40%;
     text-align: center;
+    font-size: var(--xl);
+  }
+  
+  .direction-info {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-around;
+  }
+  
+  .direction-info h4{
+    font-size: var(--lg);
+  }
+  
+  .direction p{
+    font-size: var(--md);
   }
 
   /* styles for the footer section */
