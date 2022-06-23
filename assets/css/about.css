@@ -125,7 +125,7 @@ nav {
 /* Styles for the hero section */
 
 header {
-  background-image: url(../img/bg-pizza3.jpg);
+  background-image: url('../img/bg-pizza3.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
