@@ -688,7 +688,7 @@ header {
   }
 
   .direction-info h4 {
-    font-size: var(--lg);
+    font-size: var(--md);
   }
 
   .direction p {
