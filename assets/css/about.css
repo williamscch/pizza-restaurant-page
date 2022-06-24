@@ -173,7 +173,7 @@ nav {
   border: 1px solid var(--gray);
   border-radius: 2px;
   text-align: center;
-  padding: 0.3rem;
+  padding: 0.7rem;
   height: 18vh;
   display: flex;
   align-items: center;
@@ -459,6 +459,7 @@ footer p {
   .hero-info {
     width: 50%;
     height: 25%;
+    padding: 1.3rem;
   }
 
   .hero-info p {
