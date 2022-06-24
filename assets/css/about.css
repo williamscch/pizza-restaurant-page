@@ -178,7 +178,7 @@ nav {
   height: 20vh;
   display: flex;
   align-items: center;
-  width: 85%;
+  width: 88%;
 }
 
 .hero-info p {
@@ -463,8 +463,8 @@ nav {
   }
 
   .hero-info {
-    width: 50%;
-    height: 27%;
+    width: 55%;
+    height: 30%;
     padding: 1.3rem;
   }
 
