@@ -100,7 +100,7 @@ nav {
 
 .hamburger-button::before,
 .hamburger-button::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 35px;
   height: 5px;
@@ -130,12 +130,11 @@ nav {
 /* Styles for the hero section */
 
 .head {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8)
     ),
-    url('../img/bg-pizza3.jpg');
+    url("../img/bg-pizza3.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -247,7 +246,7 @@ nav {
 }
 
 .logo-middle img {
-  width: 70%;
+  width: 60%;
 }
 
 /* Story section */
@@ -287,12 +286,11 @@ nav {
 }
 
 .story-card {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba(200, 50, 50, 0.6),
       rgba(200, 50, 50, 0.6)
     ),
-    url('../img/fratello-team.jpg');
+    url("../img/fratello-team.jpg");
   background-size: cover;
   background-position: top;
   height: 20vh;
@@ -303,12 +301,11 @@ nav {
 }
 
 .story-card2 {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba(200, 50, 50, 0.6),
       rgba(200, 50, 50, 0.6)
     ),
-    url('../img/fratello-clientes.jpg');
+    url("../img/fratello-clientes.jpg");
   background-size: cover;
   background-position: top;
   height: 20vh;
@@ -568,8 +565,12 @@ footer p {
 
   .logo-middle {
     margin-top: 5rem;
-    height: 55%;
-    width: 70%;
+    height: 60%;
+    width: 60%;
+  }
+
+  .logo-middle img {
+    width: 50%;
   }
 
   /* Story section */
@@ -633,7 +634,7 @@ footer p {
 
   .img-logo {
     width: 15rem;
-    filter:invert();
+    filter: invert();
   }
 
   /* .conectus h4 {
