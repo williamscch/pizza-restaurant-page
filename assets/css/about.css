@@ -602,6 +602,7 @@ footer p {
   .story-card2 {
     height: 90%;
     width: 40%;
+    padding: 1rem 2rem;
   }
 
   .story-card p,
