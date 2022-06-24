@@ -606,7 +606,7 @@ header {
 
   .deals-card {
     grid-template-columns: 100%;
-    grid-template-rows: 35% 25% 40%;
+    grid-template-rows: 35% 20% 45%;
     height: 100%;
     width: 15%;
   }
