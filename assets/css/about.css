@@ -627,6 +627,7 @@ nav {
   }
 
   .footer {
+    padding: 3rem 0;
     height: 15vh;
     background-color: var(--neutral);
     color: var(--white);

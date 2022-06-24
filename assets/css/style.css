@@ -745,6 +745,7 @@ header {
     background-color: white;
     display: flex;
     height: 10vh;
+    padding: 3rem 0;
   }
 
   .logo-footer {
@@ -761,7 +762,6 @@ header {
 
   .footer p {
     width: 50%;
-    padding: 1rem;
     font-size: var(--md);
     color: var(--neutral);
     align-self: center;
