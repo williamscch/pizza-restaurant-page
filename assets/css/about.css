@@ -8,6 +8,7 @@
   --ssm: 0.8rem;
   --sm: 1rem;
   --md: 1.4rem;
+  --mmd: 1.7rem;
   --lg: 2rem;
   --xl: 2.6rem;
 }
@@ -26,6 +27,10 @@ body {
 nav {
   display: flex;
   height: 2.5rem;
+}
+
+.mini-nav {
+  display: none;
 }
 
 .logo {
@@ -469,12 +474,38 @@ nav {
   /* navbar */
 
   nav {
+    padding-top: 3vh;
     background-color: white;
-    height: 7vh;
+    height: 9vh;
     align-items: center;
     position: fixed;
     width: 100%;
     border-bottom: 1px solid var(--gray);
+    z-index: 99;
+  }
+
+  .mini-nav {
+    position: absolute;
+    top: 0;
+    display: flex;
+    background-color: var(--neutral);
+    width: 100%;
+    height: 3vh;
+    margin: 0;
+    justify-content: end;
+    color: var(--white);
+    gap: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+  }
+
+  .mini-nav li,
+  .mini-nav li a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--white);
+    font-size: var(--mmd);
+    cursor: pointer;
   }
 
   .logo {
@@ -488,7 +519,7 @@ nav {
   }
 
   .logo-nav img {
-    width: 12rem;
+    width: 11rem;
   }
 
   .nav-info {
@@ -509,7 +540,7 @@ nav {
   .navbar-items li a {
     text-decoration: none;
     color: var(--neutral);
-    font-size: var(--md);
+    font-size: var(--mmd);
     font-weight: 500;
   }
 
@@ -617,6 +648,6 @@ nav {
   .navbar-items li a:hover {
     color: var(--orange);
     border: 4px solid var(--orange);
-    padding: 0.8rem;
+    padding: 0.2rem;
   }
 }
