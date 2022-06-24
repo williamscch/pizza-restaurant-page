@@ -2,15 +2,15 @@
   --white: #fff;
   --black: #000;
   --neutral: #272a31;
-  --orange: #ec5241;
+  --orange: #ec5242;
   --gray: #d3d3d3;
   --xs: 0.6rem;
-  --ssm: 0.8rem;
-  --sm: 1rem;
-  --md: 1.4rem;
-  --mmd: 1.7rem;
-  --lg: 2rem;
-  --xl: 2.6rem;
+  --ssm: 0.7rem;
+  --sm: 0.9rem;
+  --md: 1.2rem;
+  --mmd: 1.5rem;
+  --lg: 1.8rem;
+  --xl: 2.4rem;
 }
 
 body {
@@ -495,7 +495,7 @@ nav {
 
   .logo {
     display: flex;
-    width: 40%;
+    width: 30%;
     justify-content: center;
   }
 
@@ -504,11 +504,11 @@ nav {
   }
 
   .logo-nav img {
-    width: 11rem;
+    width: 10rem;
   }
 
   .nav-info {
-    width: 60%;
+    width: 70%;
   }
 
   .navbar-items {
