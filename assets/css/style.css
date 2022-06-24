@@ -347,15 +347,17 @@ header {
 
 .locations {
   background-color: var(--neutral);
-  height: 20vh;
+  height: 25vh;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
 }
 
 .locations h2 {
   color: var(--white);
+  margin: 0;
 }
 
 .locations hr {
@@ -367,21 +369,48 @@ header {
 .direction {
   display: flex;
   color: var(--white);
-  padding-top: 1rem;
   align-items: center;
+  width: 80%;
+  gap:3rem;
+}
+ 
+.conectus{
+  width: 50%;
+  justify-content: start;
 }
 
-.direction i {
-  width: 40%;
+.conectus h4 {
   text-align: center;
-  font-size: var(--lg);
+  margin: 0;
+  font-size: var(--sm);
+  font-weight: 400;
+}
+
+.conect {
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+  justify-content: center;
+  margin: 0;
+}
+
+.conect li {
+  list-style: none;
+  font-size: var(--md);
+  font-weight: 600;
+}
+
+.conect li a {
+  text-decoration: none;
+  color: var(--white);
 }
 
 .direction-info {
   display: flex;
   flex-direction: column;
-  width: 60%;
-  justify-content: space-around;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
 }
 
 .direction-info h4 {
@@ -391,6 +420,7 @@ header {
 .direction p {
   font-size: var(--xs);
   margin: 0;
+  text-align: center;
 }
 
 /* styles for the footer section */
@@ -412,32 +442,6 @@ footer {
 .img-logo {
   width: 8rem;
 }
-
-/* .conectus h4 {
-  text-align: center;
-  margin: 0;
-  font-size: var(--md);
-  font-weight: 500;
-}
-
-.conect {
-  display: flex;
-  gap: 2rem;
-  padding: 0;
-  justify-content: center;
-  margin: 0;
-}
-
-.conect li {
-  list-style: none;
-  font-size: var(--md);
-  font-weight: 600;
-}
-
-.conect li a {
-  text-decoration: none;
-  color: var(--neutral);
-} */
 
 footer p {
   width: 50%;
@@ -685,11 +689,12 @@ footer p {
 
   .locations {
     background-color: var(--neutral);
-    height: 25vh;
+    height: 35vh;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
   }
 
   .locations h2 {
@@ -703,23 +708,27 @@ footer p {
     margin: 0;
   }
 
-  .direction {
-    display: flex;
-    color: var(--white);
-    padding-top: 1rem;
+  .conectus h4 {
+    font-size: var(--lg);
+    font-weight: 500;
   }
 
-  .direction i {
-    width: 40%;
-    text-align: center;
+  .conect {
+    gap: 4rem;
+  }
+
+  .conect li {
     font-size: var(--xl);
+    font-weight: 600;
+    transition: transform 0.5s;
   }
 
-  .direction-info {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    justify-content: space-around;
+  .conect li:hover {
+    transform: scale(1.5);
+  }
+
+  .conect li a:hover {
+    color: var(--orange);
   }
 
   .direction-info h4 {
@@ -749,41 +758,6 @@ footer p {
   .img-logo {
     width: 15rem;
   }
-
-  /* .conectus h4 {
-    text-align: center;
-    margin: 0;
-    font-size: var(--lg);
-    font-weight: 500;
-  }
-
-  .conect {
-    display: flex;
-    gap: 2rem;
-    padding: 0;
-    justify-content: center;
-    margin: 0;
-  }
-
-  .conect li {
-    list-style: none;
-    font-size: var(--xl);
-    font-weight: 600;
-    transition: transform 0.5s;
-  }
-
-  .conect li:hover {
-    transform: scale(1.5);
-  }
-
-  .conect li a {
-    text-decoration: none;
-    color: var(--neutral);
-  }
-
-  .conect li a:hover {
-    color: var(--orange);
-  } */
 
   footer p {
     width: 50%;
