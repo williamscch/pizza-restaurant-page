@@ -8,7 +8,7 @@
   --ssm: 0.8rem;
   --sm: 1rem;
   --md: 1.4rem;
-  --mmd:1.7rem;
+  --mmd: 1.7rem;
   --lg: 2rem;
   --xl: 2.6rem;
 }
@@ -130,7 +130,8 @@ nav {
 /* Styles for the hero section */
 
 header {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8)
     ),
@@ -371,10 +372,10 @@ header {
   color: var(--white);
   align-items: center;
   width: 80%;
-  gap:3rem;
+  gap: 3rem;
 }
- 
-.conectus{
+
+.conectus {
   width: 50%;
   justify-content: start;
 }
@@ -425,7 +426,7 @@ header {
 
 /* styles for the footer section */
 
-footer {
+.footer {
   background-color: white;
   display: flex;
   height: 10vh;
@@ -443,7 +444,7 @@ footer {
   width: 8rem;
 }
 
-footer p {
+.footer p {
   width: 50%;
   font-size: var(--xs);
   color: var(--neutral);
@@ -454,7 +455,6 @@ footer p {
 /* media query for home desktop version  */
 
 @media (min-width: 768px) {
-
   /* navbar */
 
   nav {
@@ -466,30 +466,6 @@ footer p {
     width: 100%;
     border-bottom: 1px solid var(--gray);
     z-index: 99;
-  }
-
-  .mini-nav {
-    position: absolute;
-    top: 0;
-    display: flex;
-    background-color: var(--neutral);
-    width: 100%;
-    height: 3vh;
-    margin: 0;
-    justify-content: end;
-    color: var(--white);
-    gap: 1rem;
-    padding-right: 1rem;
-    align-items: center;
-  }
-
-  .mini-nav li,
-  .mini-nav li a {
-    list-style: none;
-    text-decoration: none;
-    color: var(--white);
-    font-size: var(--mmd);
-    cursor: pointer;
   }
 
   .logo {
@@ -530,6 +506,30 @@ footer p {
 
   .menu-btn {
     display: none;
+  }
+
+  .mini-nav {
+    position: absolute;
+    top: 0;
+    display: flex;
+    background-color: var(--neutral);
+    width: 100%;
+    height: 3vh;
+    margin: 0;
+    justify-content: end;
+    color: var(--white);
+    gap: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+  }
+
+  .mini-nav li,
+  .mini-nav li a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--white);
+    font-size: var(--sm);
+    cursor: pointer;
   }
 
   /* hero */
@@ -741,7 +741,7 @@ footer p {
 
   /* styles for the footer section */
 
-  footer {
+  .footer {
     background-color: white;
     display: flex;
     height: 10vh;
@@ -759,7 +759,7 @@ footer p {
     width: 15rem;
   }
 
-  footer p {
+  .footer p {
     width: 50%;
     padding: 1rem;
     font-size: var(--md);

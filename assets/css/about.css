@@ -130,7 +130,8 @@ nav {
 /* Styles for the hero section */
 
 .head {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8)
     ),
@@ -286,7 +287,8 @@ nav {
 }
 
 .story-card {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(200, 50, 50, 0.6),
       rgba(200, 50, 50, 0.6)
     ),
@@ -301,7 +303,8 @@ nav {
 }
 
 .story-card2 {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(200, 50, 50, 0.6),
       rgba(200, 50, 50, 0.6)
     ),
@@ -358,10 +361,10 @@ nav {
   color: var(--white);
   align-items: center;
   width: 80%;
-  gap:3rem;
+  gap: 3rem;
 }
- 
-.conectus{
+
+.conectus {
   width: 50%;
   justify-content: start;
 }
@@ -412,7 +415,7 @@ nav {
 
 /* styles for the footer section */
 
-footer {
+.footer {
   background-color: white;
   display: flex;
   height: 10vh;
@@ -430,7 +433,7 @@ footer {
   width: 8rem;
 }
 
-footer p {
+.footer p {
   width: 50%;
   font-size: var(--xs);
   color: var(--neutral);
@@ -490,30 +493,6 @@ footer p {
     z-index: 99;
   }
 
-  .mini-nav {
-    position: absolute;
-    top: 0;
-    display: flex;
-    background-color: var(--neutral);
-    width: 100%;
-    height: 3vh;
-    margin: 0;
-    justify-content: end;
-    color: var(--white);
-    gap: 1rem;
-    padding-right: 1rem;
-    align-items: center;
-  }
-
-  .mini-nav li,
-  .mini-nav li a {
-    list-style: none;
-    text-decoration: none;
-    color: var(--white);
-    font-size: var(--mmd);
-    cursor: pointer;
-  }
-
   .logo {
     display: flex;
     width: 40%;
@@ -552,6 +531,30 @@ footer p {
 
   .hamburger-button {
     display: none;
+  }
+
+  .mini-nav {
+    position: absolute;
+    top: 0;
+    display: flex;
+    background-color: var(--neutral);
+    width: 100%;
+    height: 3vh;
+    margin: 0;
+    justify-content: end;
+    color: var(--white);
+    gap: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+  }
+
+  .mini-nav li,
+  .mini-nav li a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--white);
+    font-size: var(--sm);
+    cursor: pointer;
   }
 
   .fratello-logo {
@@ -623,7 +626,7 @@ footer p {
     display: none;
   }
 
-  footer {
+  .footer {
     height: 15vh;
     background-color: var(--neutral);
     color: var(--white);
@@ -642,29 +645,7 @@ footer p {
     filter: invert();
   }
 
-  /* .conectus h4 {
-    font-size: var(--lg);
-    color: var(--white);
-  }
-
-  .conect li {
-    font-size: var(--xl);
-    transition: transform 0.5s;
-  }
-
-  .conect li:hover {
-    transform: scale(1.5);
-  }
-
-  .conect li a {
-    color: var(--white);
-  }
-
-  .conect li a:hover {
-    color: var(--orange);
-  } */
-
-  footer p {
+  .footer p {
     color: var(--white);
     font-size: var(--md);
   }
