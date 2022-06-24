@@ -385,20 +385,25 @@ nav {
 
 /* styles for the footer section */
 
-.footer {
+footer {
   background-color: white;
   display: flex;
   height: 10vh;
 }
 
-.conectus {
+.logo-footer {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-.conectus h4 {
+.img-logo {
+  width: 8rem;
+}
+
+/* .conectus h4 {
   text-align: center;
   margin: 0;
   font-size: var(--md);
@@ -423,9 +428,9 @@ nav {
 .conect li a {
   text-decoration: none;
   color: var(--neutral);
-}
+} */
 
-.footer p {
+footer p {
   width: 50%;
   font-size: var(--xs);
   color: var(--neutral);
@@ -612,13 +617,26 @@ nav {
     display: none;
   }
 
-  .footer {
+  footer {
     height: 15vh;
     background-color: var(--neutral);
     color: var(--white);
   }
 
-  .conectus h4 {
+  .logo-footer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-logo {
+    width: 15rem;
+    filter:invert();
+  }
+
+  /* .conectus h4 {
     font-size: var(--lg);
     color: var(--white);
   }
@@ -638,9 +656,9 @@ nav {
 
   .conect li a:hover {
     color: var(--orange);
-  }
+  } */
 
-  .footer p {
+  footer p {
     color: var(--white);
     font-size: var(--md);
   }

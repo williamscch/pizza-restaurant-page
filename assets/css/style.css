@@ -8,6 +8,7 @@
   --ssm: 0.8rem;
   --sm: 1rem;
   --md: 1.4rem;
+  --mmd:1.7rem;
   --lg: 2rem;
   --xl: 2.6rem;
 }
@@ -394,20 +395,25 @@ header {
 
 /* styles for the footer section */
 
-.footer {
+footer {
   background-color: white;
   display: flex;
   height: 10vh;
 }
 
-.conectus {
+.logo-footer {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-.conectus h4 {
+.img-logo {
+  width: 8rem;
+}
+
+/* .conectus h4 {
   text-align: center;
   margin: 0;
   font-size: var(--md);
@@ -431,9 +437,9 @@ header {
 .conect li a {
   text-decoration: none;
   color: var(--neutral);
-}
+} */
 
-.footer p {
+footer p {
   width: 50%;
   font-size: var(--xs);
   color: var(--neutral);
@@ -444,6 +450,7 @@ header {
 /* media query for home desktop version  */
 
 @media (min-width: 768px) {
+
   /* navbar */
 
   nav {
@@ -725,20 +732,25 @@ header {
 
   /* styles for the footer section */
 
-  .footer {
+  footer {
     background-color: white;
     display: flex;
     height: 10vh;
   }
 
-  .conectus {
+  .logo-footer {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
 
-  .conectus h4 {
+  .img-logo {
+    width: 15rem;
+  }
+
+  /* .conectus h4 {
     text-align: center;
     margin: 0;
     font-size: var(--lg);
@@ -771,9 +783,9 @@ header {
 
   .conect li a:hover {
     color: var(--orange);
-  }
+  } */
 
-  .footer p {
+  footer p {
     width: 50%;
     padding: 1rem;
     font-size: var(--md);
