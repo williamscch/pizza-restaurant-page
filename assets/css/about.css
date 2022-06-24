@@ -273,10 +273,11 @@ nav {
 }
 
 .story p {
-  font-size: var(--ssm);
-  font-weight: 300;
+  font-size: var(--sm);
+  font-weight: 400;
   text-align: center;
   margin: 1rem 0;
+  color: var(--neutral);
 }
 
 .story-cards-container {
