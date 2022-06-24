@@ -175,7 +175,7 @@ nav {
   border-radius: 2px;
   text-align: center;
   padding: 0.7rem;
-  height: 18vh;
+  height: 20vh;
   display: flex;
   align-items: center;
   width: 85%;
@@ -464,7 +464,7 @@ nav {
 
   .hero-info {
     width: 50%;
-    height: 25%;
+    height: 27%;
     padding: 1.3rem;
   }
 
