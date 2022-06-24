@@ -1,46 +1,28 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Fratello Pizzas Page
 
-> Description the project.
+> In this project I build a fully responsive page for a Pizza Restaurant, showing the most important features like the menu, location, deals an story.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5
+- CSS
+- JavaScript
+- DOM
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://wdavidcch.github.io/capstone1/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running copy the SSH key of the repository and make a 'git clone', then you will be able to deploy this project locally.
 
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author**
+## 👤 Author
 
 - GitHub: [@wdavidcch](https://github.com/wdavidcch)
 - Twitter: [@wdavidcch](https://twitter.com/wdavidcch)
@@ -58,6 +40,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Microverse
 - Original design UI idea by [Cindy Shin](https://www.behance.net/adagio07)
 
 ## 📝 License
