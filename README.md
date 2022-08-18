@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://wdavidcch.github.io/capstone1/)
+[Live Demo Link](https://williamscch.github.io/pizza-restaurant-page/)
 
 
 ## Getting Started
