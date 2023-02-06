@@ -16,6 +16,8 @@
 
 [Live Demo Link](https://williamscch.github.io/pizza-restaurant-page/)
 
+## Quick view
+> ![](./assets/img/ss.png)
 
 ## Getting Started
 
